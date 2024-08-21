@@ -10,11 +10,7 @@ body{
     background-position: center; /* This will center the image */
     background-repeat: no-repeat; /* This prevents the image from repeating */
     background-attachment: fixed; /* This keeps the background fixed while scrolling */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Ensures the body takes up the full viewport height */
-    margin: 0;
+    
 }
 .card{
     color:white;
@@ -24,6 +20,7 @@ body{
     padding: 40px 35px;
     border-radius: 20px;
     text-align: center;
+    margin: 100px auto 0px;
 }
 .search{
     width: 100%;
